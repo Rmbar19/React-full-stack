@@ -2,37 +2,67 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+   flex-direction: column;
+  /* align-items: center;  */
+   /* justify-content: center;  */
   font-size: calc(10px + 2vmin);
   color: white;
+  float: 'left';
+  background-image: url(//www.ageofempires.com/wp-content/uploads/2021/11/AoE_II_Anniversary_2021_1920x1080_logo-1080x608.png);
 }
 
-.App-link {
-  color: #61dafb;
+
+.body {
+  background-color: #08324e;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
+  /* justify-content: center; */
+  color: rgb(207, 118, 16);
+  float: 'left';
+  border: solid white 1px;
+  width: 49.7vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.plan {
+  border: solid white 1px;
+  background-color: #08324e; 
+  width: 50vw;
+}
+
+.main {
+  display: inline-flex;
+  background-image: url(//www.ageofempires.com/wp-content/uploads/2021/11/AoE_II_Anniversary_2021_1920x1080_logo-1080x608.png);
+}
+
+body {
+  background-color: #0c2557;
+  background-image: url(//www.ageofempires.com/wp-content/uploads/2021/11/AoE_II_Anniversary_2021_1920x1080_logo-1080x608.png);
+}
+
+.building {
+  border: solid white 1px;
+  max-height: 8.5vw;
+  width: 5vw;
+  font-size:.6vw ;
+  
+}
+
+.objects {
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  overflow-y: scroll;
+  /* background-image: url(//www.ageofempires.com/wp-content/uploads/2021/11/AoE_II_Anniversary_2021_1920x1080_logo-1080x608.png); */
+}
+
+.everything {
+  color: rgb(207, 118, 16);
+  font-size:1vw ;
+  
 }
